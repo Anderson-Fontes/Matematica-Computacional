@@ -1,0 +1,54 @@
+/* Blocos de repetição 
+** Autor: Fabrício Galende Marques de Carvalho
+*/
+
+var a: number = 1;
+while(a < 10){
+    console.log("valor de a: ", a);
+    ++ a;
+}
+
+var b: number = 1;
+do{
+    console.log("valor de :b", b);
+    b = b + 1;
+} while( b< 10)
+
+
+for(let c: number = 1; c< 10; ++c){
+    console.log("valor de c: ", c);
+}
+
+
+export {}
+
+let x:number[] = [1,2,3];
+
+for(let y of x){
+    console.log(y);
+}
+
+export{}
+
+let x:number[] = [1,2,3];
+
+x.forEach( (v) => {console.log(v);
+})
+
+x.forEach(tratador);
+
+function tratador(valor:any, indice:any){
+    console.log("valor:",valor);
+    console.log("indice",indice);
+}
+
+export{}
+
+let pessoa:any = {'nome':'Pedro', 'idade' : 20};
+
+for(let p in pessoa){
+    console.log(p);
+}
+
+export{}
+
